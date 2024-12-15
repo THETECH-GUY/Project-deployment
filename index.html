@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+
+        <h1>Discount Installment Loan Calculator</h1>
+
+        <form id="loanForm">
+
+            <label for="amountNeeded">Amount Needed (GHC):</label>
+
+            <input type="number" id="amountNeeded" required>
+
+
+            <label for="interestRate">Interest Rate (%):</label>
+
+            <input type="number" id="interestRate" required>
+
+
+            <label for="duration">Duration (Months):</label>
+
+            <input type="number" id="duration" required>
+
+
+            <button type="submit">Calculate</button>
+
+        </form>
+
+
+        <div id="results"></div>
+
+
+        <button id="repeatButton" style="display: none;">Calculate Again</button>
+
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
